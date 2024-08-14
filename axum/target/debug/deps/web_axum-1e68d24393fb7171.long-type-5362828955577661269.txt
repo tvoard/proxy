@@ -1,0 +1,1 @@
+fn(Extension<{type error}>, Json<Value>) -> impl Future<Output = Result<impl IntoResponse, (StatusCode, std::string::String)>> {proxy_request}

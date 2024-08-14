@@ -1,0 +1,10 @@
+[package]
+name = "axum"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde_json = "1.0.91"
+axum = "0.6.1"
+hyper = { version = "0.14.20", features = ["client"] }
+tokio = { version = "1.24.2", features = ["full"] }
